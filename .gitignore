@@ -1,2 +1,4 @@
 
 Twilio scripts/twilio_config.py
+
+*.pem
