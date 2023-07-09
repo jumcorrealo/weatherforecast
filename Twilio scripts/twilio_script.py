@@ -12,7 +12,7 @@ from datetime import datetime
 from utils import request_wapi,get_forecast,create_df,send_message,get_date
 
 
-query = 'La estrella'
+query = 'Bogotá'
 api_key = API_KEY_WAPI
 
 url = 'http://api.weatherapi.com/v1/forecast.json?key={}&q={}&days=1&aqi=no&alerts=no'.format(api_key,query)
